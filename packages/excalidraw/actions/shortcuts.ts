@@ -56,7 +56,7 @@ export type ShortcutName =
   | "toolLock";
 
 const shortcutMap: Record<ShortcutName, string[]> = {
-  toggleTheme: [getShortcutKey("Shift+Alt+D")],
+  toggleTheme: [getShortcutKey("Shift+Alt+E")],
   saveScene: [getShortcutKey("CtrlOrCmd+S")],
   loadScene: [getShortcutKey("CtrlOrCmd+O")],
   clearCanvas: [getShortcutKey("CtrlOrCmd+Delete")],

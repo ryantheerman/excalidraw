@@ -675,7 +675,7 @@ exports[`<Excalidraw/> > Test UIOptions prop > Test canvasActions > should rende
       <div
         class="dropdown-menu-item__shortcut"
       >
-        Shift+Alt+D
+        Shift+Alt+E
       </div>
     </button>
     <div

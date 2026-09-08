@@ -300,7 +300,7 @@ export const HelpDialog = ({ onClose }: { onClose?: () => void }) => {
             {actionManager.isActionEnabled(actionToggleTheme) && (
               <Shortcut
                 label={t("labels.toggleTheme")}
-                shortcuts={[getShortcutKey("Alt+Shift+D")]}
+                shortcuts={[getShortcutKey("Alt+Shift+E")]}
               />
             )}
             <Shortcut

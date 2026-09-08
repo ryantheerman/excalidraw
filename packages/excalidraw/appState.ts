@@ -11,7 +11,6 @@ import {
   STATS_PANELS,
   THEME,
   DEFAULT_GRID_STEP,
-  isTestEnv,
 } from "@excalidraw/common";
 
 import type { AppState, NormalizedZoomValue } from "./types";
@@ -38,7 +37,7 @@ export const getDefaultAppState = (): Omit<
     currentItemStrokeVariability: "constant",
     currentItemStartArrowhead: null,
     currentItemStrokeColor: DEFAULT_ELEMENT_PROPS.strokeColor,
-    currentItemRoundness: isTestEnv() ? "sharp" : "round",
+    currentItemRoundness: "sharp",
     currentItemArrowType: ARROW_TYPE.round,
     currentItemStrokeStyle: DEFAULT_ELEMENT_PROPS.strokeStyle,
     currentItemStrokeWidthKey: DEFAULT_ELEMENT_STROKE_WIDTH_KEY,
